@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Hi! 😶</h1>
+            </div>
+            <div class="profile-summary">
+                <div class="profile-links">
+                    <div class="profile">
+                        <h1>Profile</h1>
+                        <div>
+                            <h2 data-testid="slackDisplayName" class="name">🧑‍🦲Guy in a Chair</h2>
+                            <h3 data-testid="slackEmail" class="email">📧[kinxly@gmail.com ]</h3>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <h1>Follow the Links</h1>
+                        <p>
+                            <span>👉</span>
+                            <a href="https://hng.tech/learn" data-testid="hngLink">Learn from HNG</a>
+                        </p>
+                        <p>
+                            <span>👉</span>
+                            <a href="https://keyword.dog" data-testid="keywordLink">"Keyword Dog", yes, this a real website, click me you'll see.'</a>
+                        </p>
+                        <p>
+                            <span>👉</span>
+                            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">
+                                Scrape Any Website you wish...you dont even need to know what scraping means...its just handy.</a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <div class="profile-image">
+                    <img data-testid="slackProfilePicture" src="https://ca.slack-edge.com/T07466B189M-U079TUP9AQN-7f66557d366b-512" alt="avatar" />
+                </div>
+            </div>
+            <div class="time">
+                <div>
+                    <h1>Current UTC Time</h1>
+                    <span>
+                        <span>🕛</span>
+                        <span data-testid="currentTimeUTC" id="utc-time">javascript UTC TIME</span>
+                    </span>
+                </div>
+            </div>
+            <div class="week">
+                <div>
+                    <h1>Day of the week</h1>
+                    <span>
+                        <span>📅</span>
+                        <span data-testid="currentDay" id="utc-day">Sunday</span>
+                    </span>
+                </div>
+            </div>
+            <div class="goals">
+                <h1>Goals Set for a Two Year period</h1>
+                <h2>Year 1: Strengthening Software Development Skills and Gaining Cybersecurity Foundations</h2>
+                <section class="q1-q2">
+                    <h3>Q1-Q2: Achieve Senior Software Developer Position</h3>
+                    <ul>
+                        <li>
+                            <strong>Enhance Technical Skills:</strong>
+                            <ul>
+                                <li>Imporve mobile development skills with kotlin or flutter</li>
+                                <li>Improve backend skills with Node.js and Java Spring boot</li>
+                                <li>Optimize performance and scalability of web applications.</li>
+                                <li>Improve Animation skills</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Leadership:</strong>
+                            <ul>
+                                <li>Take on more leadership roles in projects.</li>
+                                <li>Participate in or lead code reviews.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Certifications:</strong>
+                            <ul>
+                                <li>Obtain relevant certifications like AWS Certified Developer or Google Professional Cloud Developer.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="q3-q4">
+                    <h3>Q3-Q4: Begin Cybersecurity Education</h3>
+                    <ul>
+                        <li>
+                            <strong>Foundational Knowledge:</strong>
+                            <ul>
+                                <li>Enroll in introductory cybersecurity courses (e.g., Coursera, Udemy, or university programs).</li>
+                                <li>Study fundamental concepts: network security, encryption, threat modeling, and security best practices.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Certifications:</strong>
+                            <ul>
+                                <li>Start with basic certifications like CompTIA Security+ or Certified Information Systems Security Professional (CISSP).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Practical Experience:</strong>
+                            <ul>
+                                <li>Participate in Capture The Flag (CTF) competitions.</li>
+                                <li>Start contributing to open-source security projects.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Networking:</strong>
+                            <ul>
+                                <li>Join cybersecurity forums, attend webinars, and participate in local meetups or conferences.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <h2>Year 2: Deepening Cybersecurity Knowledge and Experience</h2>
+                <section class="q1-q2">
+                    <h3>Q1-Q2: Advanced Cybersecurity Learning</h3>
+                    <ul>
+                        <li>
+                            <strong>Specialize:</strong>
+                            <ul>
+                                <li>Choose a cybersecurity specialization: penetration testing, threat intelligence, incident response, etc.</li>
+                                <li>Enroll in advanced courses relevant to your chosen specialization.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Certifications:</strong>
+                            <ul>
+                                <li>
+                                    Obtain advanced certifications: Certified Ethical Hacker (CEH), Offensive Security Certified Professional (OSCP), or
+                                    Certified Information Security Manager (CISM).
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Hands-on Practice:</strong>
+                            <ul>
+                                <li>Set up a home lab for practicing various cybersecurity techniques.</li>
+                                <li>Engage in bug bounty programs.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="q3-q4">
+                    <h3>Q3-Q4: Integrating Cybersecurity with Software Development</h3>
+                    <ul>
+                        <li>
+                            <strong>Secure Development Practices:</strong>
+                            <ul>
+                                <li>Implement secure coding practices in your development work.</li>
+                                <li>Conduct security audits and vulnerability assessments on your projects.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Cross-functional Collaboration:</strong>
+                            <ul>
+                                <li>Work with security teams in your organization.</li>
+                                <li>Contribute to or lead security-focused projects within your company.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Networking and Professional Development:</strong>
+                            <ul>
+                                <li>Continue building your professional network in the cybersecurity community.</li>
+                                <li>Attend advanced cybersecurity conferences and workshops.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Job Transition Preparation:</strong>
+                            <ul>
+                                <li>Update your resume to highlight both software development and cybersecurity skills.</li>
+                                <li>Start applying for cybersecurity positions or hybrid roles that allow you to leverage both skill sets.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="header">
+                <h1>Bye! 😑</h1>
+            </div>
+        </div>
+        <script src="./app.js" />
+    </body>
+</html>
